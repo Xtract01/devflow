@@ -1,9 +1,9 @@
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to Next js</h1>
-    </div>
+    <>
+      <h1 className="h1-bold">Welcome (Inter)</h1>
+      <h1 className="h1-bold font-spaceGrotesk">Welcome (Space Grotesk)</h1>
+    </>
   );
 };
-
 export default Home;
